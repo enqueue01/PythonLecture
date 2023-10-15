@@ -5,4 +5,4 @@ while True:
         break
     else:
         cityList.append("'" + city[:3] + "'")
-print("결과 >> " + ", ".join(cityList))
+print(f"결과 >> {', '.join(cityList)}")
