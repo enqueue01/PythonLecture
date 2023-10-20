@@ -6,3 +6,7 @@ while True:
     if len(random_num) == 6:
         print(sorted(random_num))
         break
+
+# pythonic
+# random_num = sorted(random.sample(range(1, 46), 6))
+# print(random_num)
