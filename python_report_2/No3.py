@@ -8,5 +8,4 @@ while True:
         break
 
 # pythonic
-# random_num = sorted(random.sample(range(1, 46), 6))
-# print(random_num)
+print(sorted(random.sample(range(1, 46), 6)))
