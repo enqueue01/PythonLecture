@@ -1,7 +1,6 @@
 import os
 
-dir = os.listdir('.')
-for name in dir:
+for name in os.listdir('.'):
     if os.path.isdir(name):
         print(f"폴더 : {name}")
     else:
