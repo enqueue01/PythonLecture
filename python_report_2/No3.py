@@ -8,4 +8,4 @@ while True:
         break
 
 # pythonic
-print(sorted(random.sample(range(1, 46), 6)))
+# print(sorted(random.sample(range(1, 46), 6)))
